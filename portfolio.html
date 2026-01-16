@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio do Herói - Nicole Jovita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Nicole Jovita</h1>
+    <p>Estudante de Engenharia de Software da Universidade de Brasília</p>
+
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#painel-heroi">Painel do Herói</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <img src="imagens/minha-foto.jpg" alt="Foto de Nicole Jovita">
+
+      <p>Olá! Sou Nicole Jovita, estudante de Engenharia de Software.</p>
+      <p>Tenho interesse especial em inovação e organização de projetos.</p>
+      <p>Falo português e inglês fluentemente e estudo francês.</p>
+    </section>
+
+    <section id="projetos">
+  <h2>Meus Projetos</h2>
+
+  <div class="lista-projetos">
+    <div class="card-projeto">
+      <h3>Meu Primeiro Site</h3>
+      <p>Página criada no treinamento de HTML</p>
+      <a href="index.html">Ver projeto</a>
+    </div>
+
+  </div>
+</section>
+
+
+    <section id="contato">
+      <h2>Contato</h2>
+
+      <form action="#" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <button class="botao-primario" type="submit">Enviar</button>
+      </form>
+      
+    </section>
+
+<section id="painel-heroi">
+    <h2>Painel do Herói</h2>
+    <p>Um pouco da minha ficha com HTML, CSS e JavaScript.</p>
+
+    <ul>
+        <li>Nome: <span id="hero-nome"></span></li>
+        <li>Classe: <span id="hero-classe"></span></li>
+        <li>Nível: <span id="hero-nivel"></span></li>
+        <li>Título: <span id="hero-titulo"></span></li>
+        <li>XP: <span id="hero-xp"></span></li>
+    </ul>
+
+  <button id="btn-xp">+10 XP</button>
+  <button id="btn-oraculo">🔮 Consultar Oráculo</button>
+
+  <p id="resposta-oraculo"></p>
+
+</section>
+
+  </main>
+
+  <footer>
+    <p>© 2024 Nicole Jovita. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
