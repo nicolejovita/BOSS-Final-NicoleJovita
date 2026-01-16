@@ -1,6 +1,6 @@
 # Portfolio do Herói - Nicole Jovita
 
-Este é um projeto de portfólio feito como prática de **HTML, CSS e JavaScript** durante a semana de capacitação da Orc'estra, Empresa Júnior de Engenharia de Software na Universidade de Brasília.  
+Este é um projeto de portfólio feito como prática de **HTML, CSS e JavaScript** durante a semana de capacitação da Orc'estra Gamificação, Empresa Júnior de Engenharia de Software na Universidade de Brasília.  
 
 O projeto inclui:  
 - Painel do Herói dinâmico, onde o usuário vê nome, classe, XP, nível e título.  
